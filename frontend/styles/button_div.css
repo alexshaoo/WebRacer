@@ -1,0 +1,27 @@
+.button_div{
+	padding: 40px 0px;
+	/* position: relative; */
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+}
+
+.button_div a {
+	font-family: "Press Start 2P", cursive;
+	background: lightslategray;
+	border: 1px solid lightslategray;
+	border-radius: 3px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.button_div a:hover {
+	background: #ff4c29;
+	border: 1px solid #334756;
+	color: white;
+}

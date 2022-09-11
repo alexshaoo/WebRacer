@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  background-color: #082032;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.btn{
+	background-color: #ff4c29;
+	border-color: tomato;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-floating{
+  margin-bottom: 1.1rem;
+}

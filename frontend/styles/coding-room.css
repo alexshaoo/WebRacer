@@ -1,0 +1,115 @@
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#questionOutput {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 100px;
+  background: #2c394b;
+  padding-left: 8px;
+}
+
+#code {
+  position: absolute;
+  right: 0;
+  top: 3.5rem;
+  bottom: 0;
+  width: 200px;
+  color: #fff;
+  background: #082032;
+}
+
+#dragH {
+  position: absolute;
+  background-color: #ff4c29;
+  left: -8px;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  cursor: col-resize;
+}
+
+#question {
+  position: absolute;
+  top: 3.5rem;
+  width: 100%;
+  background-color: #334756;
+  bottom: 0;
+  left: 0;
+}
+
+#output {
+  background-color: white;
+  position: absolute;
+  height: 150px;
+  bottom: 0em;
+  width: 100%;
+  left: 0;
+}
+
+#dragV {
+  position: absolute;
+  background-color: #ff4c29;
+  top: -8px;
+  height: 8px;
+  width: 100%;
+  cursor: row-resize;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ff4c29;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display:inline-block;
+  font-family: 'Source Code Pro', monospace;
+  display: none;
+  padding: 6px 12px;
+  height: 88%;
+  position: relative;
+  bottom: 0;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+iframe{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+pre, code{
+  position: relative;
+  height: 97%;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

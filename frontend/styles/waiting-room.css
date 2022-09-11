@@ -1,0 +1,37 @@
+.background-plate{
+    margin-top: 5em;
+    background-color: #082032;
+    text-align: center;
+}
+.code-bar{
+    width: fit-content;
+    margin:1em auto 1em auto;
+    padding: 0.5em;
+    background-color: #2C394B;
+    border-radius: 5%;
+    font-size: large;
+}
+
+.user-container{
+    background-color: #2C394B;
+    overflow: auto;
+    height: 50vh;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.user{
+    margin: 2em 2em 2em 2em; 
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+    .user-image{
+        display: none;
+    }
+    .btn{
+        margin-left: 2em;
+    }
+  }

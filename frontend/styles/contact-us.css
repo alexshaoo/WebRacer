@@ -1,0 +1,152 @@
+html {
+	background-color: #082032;
+	/* padding-left: 30%;
+	padding-right: 30%;  */
+}
+/* romoving the scroll bar */
+body::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+}
+
+#message {
+	resize: vertical;
+	max-width: 220px;
+	padding: 5px;
+}
+
+.background-plate {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: #082032;
+}
+
+.input-container {
+	background-color: #082032;
+	color: white;
+	font-family: "Press Start 2P";
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#join {
+	font-family: "Press Start 2P", cursive;
+	color: white;
+}
+
+.enter-button {
+	margin-left: 45%;
+	margin-right: 50%;
+}
+
+.join-code-title {
+	text-align: center;
+	font-weight: bond;
+}
+
+#join-code,
+#join-name {
+	text-align: center;
+}
+
+.code {
+	font-family: "Source Code Pro", monospace;
+	text-align: center;
+	/* background-color: rgb(102, 102, 153); */
+}
+
+.code-bar {
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 1%;
+}
+
+.user {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.user-title {
+	margin-bottom: 0rem !important;
+	font-weight: bold;
+}
+
+.delete-button {
+	margin-top: 3%;
+}
+
+.box {
+	box-shadow: 0 0em 0em 0em, 0 0 0 0px !important;
+	/* Removes Drop Shadow  */
+}
+
+.user-image {
+	border-radius: 30%;
+}
+
+#enter {
+	color: white;
+	background-color: rgb(112, 107, 94);
+	text-transform: uppercase;
+}
+
+#buttons {
+	/* padding: 40px 0px; */
+	position: relative;
+	text-align: center;
+	width: 100%;
+	font-family: "Press Start 2P";
+}
+
+#buttons a {
+	background: lightslategray;
+	border: 1px solid lightslategray;
+	border-radius: 3px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding: 14px;
+}
+
+#buttons a:hover {
+	background: #ff4c29;
+	border: 1px solid #334756;
+	color: white;
+}
+
+::placeholder {
+	text-align: center;
+	font-style: italic;
+}
+
+.horizontal-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.forget {
+	font-size: 50%;
+	text-align: center;
+}
+
+.spacer {
+	margin: 3%;
+	width: 50%;
+}
+
+.icon {
+	color: white;
+}
+
+.or {
+	font-size: 80%;
+	text-align: center;
+	margin: 3%;
+	color: white;
+	font-family: "Press Start 2P";
+}

@@ -1,0 +1,14 @@
+body{
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: hidden; 
+
+    background-color: #082032;
+	font-family: "Press Start 2P", cursive;
+	color: white;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
