@@ -32,4 +32,4 @@ $ npm start
 ```
  
 ## Plan Moving Forward 🤔
-Obviously, WebRacer isnt done yet. At the time of writing this we're still working on polishing our frontend to make the user experience better and populating a reserve of interesting questions to ask users.
+At the time of writing, we're still working on polishing our frontend to make the user experience better, as well as populating a reserve of interesting questions to ask users.
