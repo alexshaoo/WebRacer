@@ -1,7 +1,6 @@
 # WebRacer
 
 <img src="./files/WebRacerLogo.svg">
-^ I made a quick mock-up logo, thoughts?
 
 ---
 ## Table of contents
@@ -21,8 +20,6 @@ The Frontend of this project was created using
 
 The Backend of the Project was made using
 * MongoDB
-* 
-*  
 	
 ## Setup
 (✿◡‿◡)
