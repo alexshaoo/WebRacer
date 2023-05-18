@@ -6,6 +6,8 @@ The Frontend of this project was created using
 * HTML, CSS, JavaScript and JSXML
 * the Bootstrap Library
 * Love and attention 
+
+
 The Backend of the Project was made using
 * MongoDB
 	
