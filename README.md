@@ -1,29 +1,22 @@
-# NonEuclidean
-
----
-
-## Table of contents
-- [General info](#general-info)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Plan Moving Forward](#plan-moving-forward)
-
-## General info
-NonEuclidean is a C++ game engine that allows the user to create and interact with 3D worlds in a non-euclidean space, providing a unique gaming experience.
-
-## Technologies
-This project is developed using:
-- C++ programming language
-- SFML (Simple and Fast Multimedia Library)
-- Boost C++ Libraries
-
+## General info 😎
+WebRacer is the next leetcode for practicing fast web. You can hop into rooms with friends and compete in a race to see who solves the questions first!
+	
+## Technologies 💻
+The Frontend of this project was created using
+* HTML, CSS, JavaScript and JSXML
+* the Bootstrap Library
+* Love and attention 
+The Backend of the Project was made using
+* MongoDB
+	
 ## Setup
-To set up the project, follow these steps:
-1. Clone the repository from GitHub: `git clone https://github.com/<username>/<repository>.git`
-2. Navigate to the project directory: `cd <repository>`
-3. Install the required dependencies: `sudo apt-get install build-essential libsfml-dev libboost-all-dev`
-4. Build the project: `make`
-5. Run the project: `./non_euclidean`
+(✿◡‿◡)
+To run this project, install it locally using npm:
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
 
-## Plan Moving Forward
-As of now, we are planning to add more features to enhance the gameplay experience such as multiplayer mode, new objects, better graphics, etc. We are also looking forward to extending the engine to support VR headsets and providing more examples for users to learn from.
+## Plan Moving Forward 🤔
+At the time of writing, we're still working on polishing our frontend to make the user experience better, as well as populating a reserve of interesting questions to ask users.
