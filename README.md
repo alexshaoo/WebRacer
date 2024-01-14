@@ -21,4 +21,4 @@ $ npm start
 ```
 
 ## Plan Moving Forward 🤔
-At the time of writing, we're still working on polishing our frontend to make the user experience better, as well as populating a reserve of interesting questions to ask users.
+At the time of writing, the website has been discontinued due to insufficient funding to run the project.
